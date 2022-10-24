@@ -32,7 +32,7 @@ Add to your YAML file the author fields
         href: https://github.com/ESCRI11
 
 Please note that this information has to be consistent with the
-`DESCRIPTION` file of your package. E.g.:
+`DESCRIPTION` file of your package
 
     Authors@R: c(
         person("Escribà-Montagut", "Xavier", , "xavier.escriba@isglobal.org", role = c("aut", "cre"))
@@ -41,7 +41,7 @@ Please note that this information has to be consistent with the
 #### 2) Create a PR to [`datashield/dstemplate`](https://github.com/datashield/dstemplate)
 
 Update the [template
-file](https://github.com/datashield/dstemplate/inst/pkgdown/BS5/_pkgdown.yml)
+file](https://github.com/datashield/dstemplate/blob/main/inst/pkgdown/BS5/_pkgdown.yml)
 with your information on the `authors` field.
 
 ## Usage info
@@ -49,3 +49,7 @@ with your information on the `authors` field.
 If you’re building your site using GitHub actions or other similar tool
 (or in local), you’ll need to have installed `datashield/dstemplate`.
 Please do so using `remotes::install_github('datashield/dstemplate')`.
+
+:warning: **If you are using GitHub pages to host the `pkgdown`**: Make
+sure to include an empty `.nojekyll` file at the root of the site.
+(e.g. <https://github.com/datashield/dstemplate/blob/main/docs/.nojekyll>)

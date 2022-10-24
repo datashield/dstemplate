@@ -47,6 +47,12 @@
 <li class="nav-item">
   <a class="nav-link" href="reference/index.html">Reference</a>
 </li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-articles">Articles</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-articles">
+    <a class="dropdown-item" href="articles/bullets.html">Bullets</a>
+  </div>
+</li>
       </ul>
 <form class="form-inline my-2 my-lg-0" role="search">
         <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="search.json" id="search-input" placeholder="Search for" autocomplete="off">
@@ -87,7 +93,7 @@
 <div class="sourceCode" id="cb2"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>authors<span class="sc">:</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  Escribà<span class="sc">-</span>Montagut Xavier<span class="sc">:</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    href<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>ESCRI11</span></code></pre></div>
-<p>Please note that this information has to be consistent with the <code>DESCRIPTION</code> file of your package. E.g.:</p>
+<p>Please note that this information has to be consistent with the <code>DESCRIPTION</code> file of your package</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Authors<span class="sc">@</span>R<span class="sc">:</span> <span class="fu">c</span>(</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">person</span>(<span class="st">"Escribà-Montagut"</span>, <span class="st">"Xavier"</span>, , <span class="st">"xavier.escriba@isglobal.org"</span>, <span class="at">role =</span> <span class="fu">c</span>(<span class="st">"aut"</span>, <span class="st">"cre"</span>))</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div>
@@ -104,6 +110,7 @@
 <h2 id="usage-info">Usage info<a class="anchor" aria-label="anchor" href="#usage-info"></a>
 </h2>
 <p>If you’re building your site using GitHub actions or other similar tool (or in local), you’ll need to have installed <code>datashield/dstemplate</code>. Please do so using <code>remotes::install_github('datashield/dstemplate')</code>.</p>
+<p><span class="emoji" data-emoji="warning">⚠️</span> <strong>If you are using GitHub pages to host the <code>pkgdown</code></strong>: Make sure to include an empty <code>.nojekyll</code> file at the root of the site. (e.g. <a href="https://github.com/datashield/dstemplate/blob/main/docs/.nojekyll" class="external-link uri">https://github.com/datashield/dstemplate/blob/main/docs/.nojekyll</a>)</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="license">

@@ -51,7 +51,9 @@ Authors@R: c(
 
 #### 2) Create a PR to [`datashield/dstemplate`](https://github.com/datashield/dstemplate)
 
-Update the [template file](https://github.com/datashield/dstemplate/inst/pkgdown/BS5/_pkgdown.yml) with your information on the `authors` field.
+Update the [template file](https://github.com/datashield/dstemplate/blob/main/inst/pkgdown/BS5/_pkgdown.yml) with your information on the `authors` field.
 
 ## Usage info
 If you’re building your site using GitHub actions or other similar tool (or in local), you’ll need to have installed `datashield/dstemplate`. Please do so using `remotes::install_github('datashield/dstemplate')`.
+
+:warning: **If you are using GitHub pages to host the `pkgdown`**: Make sure to include an empty `.nojekyll` file at the root of the site. (e.g. https://github.com/datashield/dstemplate/blob/main/docs/.nojekyll)
