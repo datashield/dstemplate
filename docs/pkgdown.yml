@@ -3,5 +3,8 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   bullets: bullets.html
-last_built: 2022-10-24T13:06Z
+last_built: 2022-10-24T13:13Z
+urls:
+  reference: https://github.com/datashield/dstemplate/reference
+  article: https://github.com/datashield/dstemplate/articles
 

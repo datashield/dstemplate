@@ -1,3 +1,5 @@
 template:
   package: dstemplate
   bootstrap: 5
+
+url: https://github.com/datashield/dstemplate
