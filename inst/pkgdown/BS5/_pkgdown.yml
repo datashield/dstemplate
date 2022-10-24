@@ -1,0 +1,28 @@
+template:
+  bslib:
+    primary: "#fd7e14"
+    base_font: {google: {family: "Source Sans Pro", wght: [400, 600], ital: [0, 1]}}
+    code_font: {google: "Source Code Pro"}
+    font_scale: 1.2
+    fg: "#172431"
+    bg: "#fcfcfc"
+    navbar-background: "#fcb87e"
+    border-radius: 0
+    btn-border-radius: 3px
+    grid-gutter-width: 3rem
+    pkgdown-nav-height: 78px
+
+code:
+  width: 74
+
+navbar:
+  type: light
+  bg: none
+
+authors:
+  DataSHIELD community:
+    href: https://datashield.org
+    html: <img src='man/figures/dscommunity.png' alt='DataSHIELD Community' width='90' />
+
+  Escribà-Montagut Xavier:
+    href: https://github.com/ESCRI11
