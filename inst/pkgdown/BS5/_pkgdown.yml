@@ -22,7 +22,7 @@ navbar:
 authors:
   DataSHIELD community:
     href: https://datashield.org
-    html: <img src='man/figures/dscommunity.png' alt='DataSHIELD Community' width='90' />
+    html: <img src='https://raw.githubusercontent.com/datashield/dstemplate/main/man/figures/dscommunity.png' alt='DataSHIELD Community' width='90' />
 
   Escribà-Montagut Xavier:
     href: https://github.com/ESCRI11
