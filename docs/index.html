@@ -117,6 +117,14 @@
 <h2 id="usage-info">Usage info<a class="anchor" aria-label="anchor" href="#usage-info"></a>
 </h2>
 <p>If you’re building your site using GitHub actions or other similar tool (or in local), you’ll need to have installed <code>datashield/dstemplate</code>. Please do so using <code>remotes::install_github('datashield/dstemplate')</code>.</p>
+</div>
+<div class="section level2">
+<h2 id="linking-github-to-the-pkgdown-site">Linking GitHub to the <code>pkgdown</code> site<a class="anchor" aria-label="anchor" href="#linking-github-to-the-pkgdown-site"></a>
+</h2>
+<p>To link the GitHub repository and the <code>pkgdown</code> site, make sure to include the <a href="https://github.com/datashield/dstemplate/blob/main/_pkgdown.yml#L5">URL on the <code>_pkgdown.yml</code></a></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>datashield<span class="sc">/</span>dstemplate</span></code></pre></div>
+<p>And on the <a href="https://github.com/datashield/dstemplate/blob/main/DESCRIPTION#L9">DESCRIPTION file</a></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>URL<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>datashield<span class="sc">/</span>dstemplate</span></code></pre></div>
 <p><span class="emoji" data-emoji="warning">⚠️</span> <strong>If you are using GitHub pages to host the <code>pkgdown</code></strong>: Make sure to include an empty <code>.nojekyll</code> file at the root of the site. (e.g. <a href="https://github.com/datashield/dstemplate/blob/main/docs/.nojekyll" class="uri">https://github.com/datashield/dstemplate/blob/main/docs/.nojekyll</a>)</p>
 </div>
 </div>

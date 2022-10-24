@@ -50,6 +50,19 @@ If you’re building your site using GitHub actions or other similar tool
 (or in local), you’ll need to have installed `datashield/dstemplate`.
 Please do so using `remotes::install_github('datashield/dstemplate')`.
 
+## Linking GitHub to the `pkgdown` site
+
+To link the GitHub repository and the `pkgdown` site, make sure to
+include the [URL on the
+`_pkgdown.yml`](https://github.com/datashield/dstemplate/blob/main/_pkgdown.yml#L5)
+
+    url: https://github.com/datashield/dstemplate
+
+And on the [DESCRIPTION
+file](https://github.com/datashield/dstemplate/blob/main/DESCRIPTION#L9)
+
+    URL: https://github.com/datashield/dstemplate
+
 :warning: **If you are using GitHub pages to host the `pkgdown`**: Make
 sure to include an empty `.nojekyll` file at the root of the site.
 (e.g. <https://github.com/datashield/dstemplate/blob/main/docs/.nojekyll>)
